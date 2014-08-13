@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>TextSerialization</id>
+        <version>1.0.0</version>
+        <authors>Jeremy Beavon</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Provide ITextSerialization which serializes/deserializes object to/from text and provides implementations for each of the native .Net serializers.</description>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System" targetFramework="" />
+            <frameworkAssembly assemblyName="System.ServiceModel.Web" targetFramework=".NETFramework3.5" />
+            <frameworkAssembly assemblyName="System.Xml" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Runtime.Serialization" targetFramework=".NETFramework3.0, .NETFramework3.5, .NETFramework4.0, .NETFramework4.5" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="TextSerialization.Net20\bin\Release\TextSerialization.dll" target="lib\net20\TextSerialization.dll" />
+        <file src="TextSerialization.Net30\bin\Release\TextSerialization.dll" target="lib\net30\TextSerialization.dll" />
+        <file src="TextSerialization.Net35\bin\Release\TextSerialization.dll" target="lib\net35\TextSerialization.dll" />
+        <file src="TextSerialization.Net40\bin\Release\TextSerialization.dll" target="lib\net40\TextSerialization.dll" />
+        <file src="TextSerialization.Net45\bin\Release\TextSerialization.dll" target="lib\net45\TextSerialization.dll" />
+    </files>
+</package>
